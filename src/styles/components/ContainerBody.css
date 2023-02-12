@@ -1,0 +1,12 @@
+.ContainerBody-Container{
+    padding: 60px 20px 20px 20px;
+    align-items: center;
+}
+
+
+@media (max-width: 412px) {
+
+    .ContainerBody-Container{
+        padding: 20px 20px;
+    }
+}

@@ -1,0 +1,63 @@
+.Top-Row-Container-Main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.Top-Container-Text-Header .ant-typography {
+    margin: 0 !important;
+    font-size: 2em !important;
+}
+
+.Top-Button{
+    background-color: #7D7BDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 45px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.Top-Button .Top-Text-Button{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Top-Icon-Login{
+    display: none;
+}
+
+.Top-Button:hover{
+    transform: scale(1.02);
+    box-shadow: #7D7BDC;
+}
+
+@media (max-width: 412px) {
+
+    .Top-Icon-Login {
+      display: flex;
+    }
+
+    .Top-Button .Top-Text-Button{
+        display: none;
+    }
+
+    .Top-Button{
+        padding: 15px 25px;
+    }
+}
+@media (max-width: 280px) {
+
+    .Top-Container-Text-Header .ant-typography {
+        margin: 0 !important;
+        font-size: 1.5em !important;
+    }
+    .Top-Button{
+        padding: 10px 20px;
+    }
+}

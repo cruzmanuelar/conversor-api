@@ -1,0 +1,138 @@
+.ContainerConversor-Container-Input{
+    display: flex;
+}
+.ContainerConversor-Container-Input .ant-select{
+    width: 200px !important;
+    margin-right: 5px !important;
+}
+
+.ContainerConversor-Conversion{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerConversor-Text-Conversion{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ContainerConversor-Button-Conversion{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #7D7BDC;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.ContainerConversor-Button-Conversion:hover{
+    transform: scale(1.02);
+    box-shadow: #7D7BDC;
+}
+
+.ContainerConversor-Container-Label{
+    padding: 5px 0;
+}
+
+.ContainerConversor-Container-Label span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ContainerConversor-Container-Input .ant-input, .ant-select .ant-select-selector{
+    border: 2px solid #836E6E !important;
+    border-radius: 8px 0 0 8px !important;
+}
+.ContainerConversor-Container-Input .ant-input, .ant-select .ant-input{
+    border-radius: 0 8px 8px 0 !important;
+}
+
+.ContainerConversor-Conversion-All{
+    padding: 20px 0 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ContainerConversor-Container-Input .ant-select .ant-select-arrow{
+    display: none;
+}
+
+.ContainerConversor{
+    padding: 20px 40px 40px 40px;
+}
+
+.ContainerConversor-Container-Arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.ContainerConversor-Container-Arrow .anticon{
+    color: #836E6E !important;
+    font-size: 24px !important;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.ContainerConversor-Container-Arrow:hover .anticon{
+    transform: scale(1.1);
+    color: rgba(0, 0, 0, 0.811) !important;
+}
+
+.ContainerConversor-Conversion-All .ant-select-selector{
+    width: 150px !important;
+    border-radius: 15px !important;
+}
+
+.ContainerConversor-Conversion-All .ant-select{
+    margin: 0 10px !important;
+}
+
+.ContainerConversor-Conversion-All-Text {
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.ContainerConversor-Conversion-All .ant-select .ant-select-arrow{
+    display: none;
+}
+
+.ContainerConversor-Conversion-All-Button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #7D7BDC;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.ContainerConversor-Conversion-All-Button:hover{
+    transform: scale(1.02);
+    box-shadow: #7D7BDC;
+}
+
+
+@media (max-width: 600px) {
+
+    .ContainerConversor{
+        padding: 20px 20px;
+    }
+}
+@media (max-width: 280px) {
+
+    .ContainerConversor{
+        padding: 20px 5px;
+    }
+}
